@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.PrimaryController">
    <children>
@@ -13,10 +14,24 @@
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
    <children>
-      <Label text="User Name" />
-      <TextField />
-      <Label text="Password" />
-      <TextField />
+   <GridPane hgap="20.0" prefHeight="680.0" prefWidth="786.0">
+   <Text id="welcome-text" text="Welcome" 
+         GridPane.columnIndex="0" GridPane.rowIndex="0"
+        GridPane.columnSpan="2"/>
+ 
+    <Label text="User Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+ 
+    <TextField 
+        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+ 
+    <Label text="Password:"
+        GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <PasswordField fx:id="passwordField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+   </GridPane>
+      
       <Button fx:id="loginButton" text="Login" onAction="#testSecondary"/>
    </children>
 </VBox>
