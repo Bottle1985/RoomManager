@@ -7,11 +7,8 @@ import javafx.scene.text.Text;
 public class PrimaryController {
     @FXML private Text actiontarget;
     @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    }
-    @FXML
     private void handleSubmitButtonAction() throws IOException {
         actiontarget.setText("Sign in button pressed");
+        App.setRoot("secondary");
     }
 }
