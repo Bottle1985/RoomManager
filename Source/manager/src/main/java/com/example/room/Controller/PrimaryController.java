@@ -1,6 +1,9 @@
-package com.example.room;
+package com.example.room.Controller;
 
 import java.io.IOException;
+
+import com.example.room.App;
+
 import javafx.fxml.FXML;
 import javafx.scene.text.Text;
 
