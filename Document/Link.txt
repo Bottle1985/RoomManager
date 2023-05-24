@@ -5,3 +5,4 @@ Firebase for java app PC
 https://firebase.google.com/docs/database/rest/start
 https://randomprogrammingstuff.wordpress.com/2019/10/04/connect-to-google-firebase-using-admin-java-sdk-quick-start-tutorial/
 https://www.freeprojectz.com/dfd/room-booking-system-dataflow-diagram
+https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-vscode?view=azuresql
