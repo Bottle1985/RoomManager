@@ -1,11 +1,18 @@
-https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm#CHDDBEGD
+
 Sample fxml file
 https://gist.github.com/minlwin/ae8ea4518b16db8586ee
+https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm#CHDDBEGD
+
 Firebase for java app PC
 https://firebase.google.com/docs/database/rest/start
 https://randomprogrammingstuff.wordpress.com/2019/10/04/connect-to-google-firebase-using-admin-java-sdk-quick-start-tutorial/
-https://www.freeprojectz.com/dfd/room-booking-system-dataflow-diagram
+
+Sql Database
 https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-vscode?view=azuresql
+https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/sql-server-develop-use-vscode?view=sql-server-ver16
 
 Sample code
 https://github.com/XisUnknown/ClientWarehouseApp/blob/master/Client-App/src/sample/stages/Payment.java
+
+Flow Control
+https://www.freeprojectz.com/dfd/room-booking-system-dataflow-diagram
