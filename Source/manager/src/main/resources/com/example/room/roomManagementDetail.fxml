@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="com.example.room.Controller.RoomDetailsController">
+    <children>
+        <AnchorPane prefHeight="181.0" prefWidth="271.0">
+            <children>
+                <TableView fx:id="tablePhong">
+                    <columns>
+                        <TableColumn text="Mã Phòng" fx:id="colMaPhong" />
+                        <TableColumn text="Số Phòng" fx:id="colSoPhong" />
+                        <TableColumn text="Loại Phòng" fx:id="colLoaiPhong" />
+                        <TableColumn text="Trạng Thái" fx:id="colTrangThai" />
+                        <TableColumn text="Giá Thuê" fx:id="colGiaThue" />
+                    </columns>
+                </TableView>
+                <Button fx:id="returnButtonPayment" layoutX="406.0" layoutY="106.0"
+                    mnemonicParsing="false" onAction="#closeWindowPayment" text="Return" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
