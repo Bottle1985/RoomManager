@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="344.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.Controller.BookingPage">
+   <children>
+      <Button onAction="#returnBack" id="btn-return" layoutX="59.0" layoutY="14.0" mnemonicParsing="false" styleClass="btn-return" text="Return">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" onAction="#Exit" layoutX="516.0" layoutY="14.0" mnemonicParsing="false" styleClass="btn-exit" text="Exit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <GridPane alignment="CENTER" layoutX="22.0" layoutY="71.0" prefHeight="225.0" prefWidth="599.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="103.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="235.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button onAction="#switchToCheckOutRoom" id="btn-out" mnemonicParsing="false" prefHeight="87.0" prefWidth="256.0" styleClass="btn-out" text="Check Out" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button onAction="#switchToCancelBook" id="btn-cancel" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="87.0" prefWidth="255.0" styleClass="btn-cancel" text="Cancel Book" textAlignment="CENTER" GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button onAction="#switchToCheckInRoom" id="btn-in" mnemonicParsing="false" prefHeight="87.0" prefWidth="242.0" styleClass="btn-in" text="Check In" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button onAction="#switchToBookRoom" id="btn-book" mnemonicParsing="false" prefHeight="87.0" prefWidth="243.0" styleClass="btn-book" text="Book Room">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </GridPane>
+   </children>
+</AnchorPane>

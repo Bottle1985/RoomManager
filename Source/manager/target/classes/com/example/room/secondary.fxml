@@ -12,4 +12,10 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
+     <children>
+        <Button fx:id="bookingButton" text="Booking Management" onAction="#switchToBookingPage" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
 </VBox>

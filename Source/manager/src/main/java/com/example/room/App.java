@@ -1,9 +1,11 @@
 package com.example.room;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.Node;
 
 import java.io.IOException;
 
@@ -24,6 +26,20 @@ public class App extends Application {
 
     public static void setRoot(String fxml) throws IOException {
         scene.setRoot(loadFXML(fxml));
+    }
+
+    public static void changeScreen(ActionEvent event, String path, int width, int height, String title) throws IOException {
+        FXMLLoader loader = new FXMLLoader(App.class.getResource(path));
+        Parent root = loader.load();
+        Scene scene = new Scene(root);
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.setMaxHeight(height);
+        stage.setMinHeight(height);
+        stage.setMaxWidth(width);
+        stage.setMinWidth(width);
+        stage.setTitle(title);
+        stage.show();
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
