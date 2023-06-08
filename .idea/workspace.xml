@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c1a9859-a138-40e1-ac98-dd4d0f1410fb" name="Changes" comment="add feature Payment">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/RoomManager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Document/YeuCau.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Document/YeuCau.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PrimaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/SecondaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/SecondaryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/payment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/payment.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/secondary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/PrimaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/PrimaryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/SecondaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/SecondaryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/payment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/payment.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/secondary.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +42,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Qu5jVq4qYJ5oQQtX7FJOBbJne8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,25 +53,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IT/BackEnd/Java/RoomManager/Source/manager/src/main/resources/com/example/room&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/RoomManager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT\BackEnd\Java\RoomManager\Source\manager\src\main\resources\com\example\room" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="App.java" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,11 +92,25 @@
       <workItem from="1686202811875" duration="3231000" />
       <workItem from="1686211105371" duration="6398000" />
       <workItem from="1686217538860" duration="6332000" />
+      <workItem from="1686227288108" duration="256000" />
+      <workItem from="1686227561043" duration="156000" />
+      <workItem from="1686227734083" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
