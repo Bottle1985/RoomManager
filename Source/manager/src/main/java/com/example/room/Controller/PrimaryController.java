@@ -15,7 +15,7 @@ public class PrimaryController {
     private void handleSubmitButtonAction() throws IOException {
         actiontarget.setText("Sign in button pressed");
         App.setRoot("secondary");
-        // App.setRoot("roomManagement"); // Hồ Đình Tuấn + Vũ Hoàng Nam
+
     }
 
     @FXML
