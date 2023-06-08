@@ -17,4 +17,9 @@ public class PrimaryController {
         App.setRoot("secondary");
         // App.setRoot("roomManagement"); // Hồ Đình Tuấn + Vũ Hoàng Nam
     }
+
+    @FXML
+    private void switchToPayment() throws IOException {
+        App.setRoot("payment");
+    }
 }

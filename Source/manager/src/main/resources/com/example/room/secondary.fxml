@@ -7,7 +7,7 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.Controller.SecondaryController">
     <children>
-        <Button fx:id="secondaryButton" text="Payment Management" onAction="#switchToPrimary" />
+        <Button fx:id="secondaryButton" text="Payment Management" onAction="#switchToPaymentPage" />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
