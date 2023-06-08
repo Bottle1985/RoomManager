@@ -17,9 +17,4 @@ public class PrimaryController {
         App.setRoot("secondary");
 
     }
-
-    @FXML
-    private void switchToPayment() throws IOException {
-        App.setRoot("payment");
-    }
 }

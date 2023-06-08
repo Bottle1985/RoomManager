@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c1a9859-a138-40e1-ac98-dd4d0f1410fb" name="Changes" comment="add feature Payment">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/RoomManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document/YeuCau.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Document/YeuCau.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/PrimaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/SecondaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/SecondaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/payment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/payment.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/src/main/resources/com/example/room/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/PrimaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/PrimaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/SecondaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/Controller/SecondaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/payment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/payment.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/secondary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/manager/target/classes/com/example/room/secondary.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Qu5jVq4qYJ5oQQtX7FJOBbJne8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT/BackEnd/Java/RoomManager/Source/manager/src/main/resources/com/example/room&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\BackEnd\Java\RoomManager\Source\manager\src\main\resources\com\example\room" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c1a9859-a138-40e1-ac98-dd4d0f1410fb" name="Changes" comment="" />
+      <created>1686190766391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686190766391</updated>
+      <workItem from="1686190768204" duration="2255000" />
+      <workItem from="1686195683263" duration="1613000" />
+      <workItem from="1686202811875" duration="3231000" />
+      <workItem from="1686211105371" duration="6398000" />
+      <workItem from="1686217538860" duration="6332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add feature Payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature Payment" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Source/manager/src/main/java/com/example/room/Controller/RoomController.java</url>
+          <line>8</line>
+          <properties class="com.example.room.Controller.RoomController" method="switchroomManagementDetail">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
