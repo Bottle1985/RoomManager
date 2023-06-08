@@ -15,6 +15,9 @@ public class RoomModel {
         this.giaThue = giaThue;
     }
 
+    public RoomModel() {
+    }
+
     public String getMaPhong() {
         return maPhong;
     }
