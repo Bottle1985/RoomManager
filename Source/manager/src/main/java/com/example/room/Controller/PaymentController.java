@@ -1,4 +1,4 @@
-+package com.example.room.Controller;
+package com.example.room.Controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

@@ -59,8 +59,7 @@ public class RoomDetailsController implements Initializable {
         colSoPhong.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSoPhong()));
         colLoaiPhong.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getLoaiPhong()));
         colTrangThai.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getTrangThai()));
-        colGiaThue
-                .setCellValueFactory(cellData -> new SimpleDoubleProperty(cellData.getValue().getGiaThue()).asObject());
+        colGiaThue.setCellValueFactory(cellData -> new SimpleDoubleProperty(cellData.getValue().getGiaThue()).asObject());
 
         // Lấy dữ liệu từ nguồn dữ liệu (ví dụ: danh sách phòng)
         // và đặt nó vào bảng

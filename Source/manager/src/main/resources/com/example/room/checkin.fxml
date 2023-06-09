@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="368.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.Controller.CheckIn">
+<AnchorPane prefHeight="368.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.Controller.CheckIn">
    <children>
       <Button id="btn-return" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnBack" prefHeight="44.0" prefWidth="94.0" styleClass="btn-return" text="Return">
          <font>
@@ -30,7 +30,7 @@
             <TableColumn fx:id="colStatus" prefWidth="75.0" text="Status" />
         </columns>
       </TableView>
-      <Button onAction="#CheckInRoom" layoutX="345.0" layoutY="304.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="173.0" text="Check In Room">
+      <Button layoutX="345.0" layoutY="304.0" mnemonicParsing="false" onAction="#CheckInRoom" prefHeight="30.0" prefWidth="173.0" text="Check In Room">
          <font>
             <Font size="14.0" />
          </font>

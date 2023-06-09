@@ -18,7 +18,10 @@ public class SecondaryController {
     private void switchroomManagementDetail(ActionEvent event) throws IOException {
         App.changeScreen(event, "roomManagementDetail.fxml", 900, 550, "Room");
     }
-
+    @FXML
+    private void switchToCustomerDetail(ActionEvent event) throws IOException {
+        App.changeScreen(event, "customerManagementDetail.fxml", 900, 550, "Customers");
+    }
     @FXML
     private void switchToBookingPage(ActionEvent event) throws IOException {
         App.changeScreen(event, "bookingpage.fxml", 650, 500, "Booking");
@@ -28,4 +31,5 @@ public class SecondaryController {
     private void switchToPaymentPage(ActionEvent event) throws IOException {
         App.changeScreen(event, "payment.fxml", 800, 600, "Payment");
     }
+
 }

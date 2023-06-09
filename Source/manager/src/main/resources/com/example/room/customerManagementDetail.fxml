@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" type="BorderPane" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.room.CustomerDetailsController">
+    <children>
+        <AnchorPane prefHeight="181.0" prefWidth="271.0" />
+    </children>
+   <center>
+      <TableView fx:id="tableCustomer" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="colIdCustomer" prefWidth="75.0" text="ID Customer" />
+          <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="colCCCD" prefWidth="75.0" text="CCCD" />
+            <TableColumn fx:id="colPhoneNumber" prefWidth="75.0" text="Phone Number" />
+            <TableColumn fx:id="colEmail" prefWidth="75.0" text="Email" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+   <bottom>
+      <AnchorPane fx:id="txtName" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="79.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id" />
+            <TextField fx:id="txtIdCustomer" layoutX="120.0" layoutY="38.0" />
+            <Text layoutX="81.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên" />
+            <TextField fx:id="txtName" layoutX="121.0" layoutY="79.0" />
+            <Text layoutX="353.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CCCD" />
+            <TextField fx:id="txtCCCD" layoutX="394.0" layoutY="50.0" />
+            <Text layoutX="346.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number" wrappingWidth="48.678382873535156" />
+            <TextField fx:id="txtPhoneNumber" layoutX="395.0" layoutY="91.0" />
+            <Text fx:id="txtEmail" layoutX="611.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+            <TextField fx:id="txtEmail" layoutX="652.0" layoutY="57.0" />
+            <Button id="btn-return" layoutX="737.0" layoutY="132.0" mnemonicParsing="false" onAction="#returnBack" prefHeight="44.0" prefWidth="94.0" styleClass="btn-return" text="Return">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+</fx:root>
