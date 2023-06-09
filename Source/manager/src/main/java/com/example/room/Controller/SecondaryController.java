@@ -20,7 +20,7 @@ public class SecondaryController {
     }
     @FXML
     private void switchToCustomerDetail(ActionEvent event) throws IOException {
-        App.changeScreen(event, "customerManagementDetail.fxml", 900, 550, "Customers");
+        App.changeScreen(event, "customerDetail.fxml", 900, 550, "Customers");
     }
     @FXML
     private void switchToBookingPage(ActionEvent event) throws IOException {

@@ -7,17 +7,14 @@ import java.util.ResourceBundle;
 
 import com.example.room.App;
 import com.example.room.Model.CustomerModel;
-import com.example.room.Model.RoomModel;
-
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.TableColumn.CellDataFeatures;
-import javafx.scene.text.Text;
 
 public class CustomerController implements Initializable{
 @FXML
@@ -53,5 +50,9 @@ public class CustomerController implements Initializable{
         customerModel.add(new CustomerModel("zxczxc", "qwe", "45345", "8908908", ""));
 
         return customerModel;
+    }
+    @FXML
+    private void returnBack(ActionEvent event) throws IOException {
+       App.changeScreen(event, "secondary.fxml", 650, 500, "Booking");
     }
 }
