@@ -76,7 +76,7 @@ public class BookRoom implements Initializable{
     private ObservableList<BookRoomModel> getTableBookRoom() {
         ObservableList<BookRoomModel> bookRoomData = FXCollections.observableArrayList();
         try {
-            String fileName = "D:/RoomManager/Data/Boking.txt";
+            String fileName = "/RoomManager/Data/Boking.txt";
             File myObj = new File(fileName);
             Scanner myReader = new Scanner(myObj);
 
